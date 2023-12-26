@@ -1,0 +1,1 @@
+需要对测试程序中AC.py中actor的网络结构进行变化，删掉hidden层的layer，并将输出层layer的最后（）里的layer改为input_layer

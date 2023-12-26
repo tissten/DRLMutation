@@ -1,0 +1,1 @@
+print(float(format(3.1415926, '.2f')))
