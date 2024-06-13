@@ -1,0 +1,2 @@
+iteration,train_step,train_episode_return,train_num_episodes,train_step_rate,train_duration,eval_step,eval_episode_return,eval_num_episodes,eval_step_rate,eval_duration
+1,600000,7.128036769533815,3046,97.17111730868422,6174.6742923,20000,6.634615384615385,104,186.33375143242134,107.33428509999976
