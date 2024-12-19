@@ -1,0 +1,40 @@
+CartPole
+
+Ranges:
+Pole Angle: [-0.42, 0.42]
+Cart Position: [-4.8, 4.8]
+Cart Velocity: [-3.64, 3.92]
+Pole Angular Velocity: [-2.87, 3.02]
+
+State dimensional variation:
+CPTS_1: Modify 1 dimension (Pole Angle).
+CPTS_2: Modify 2 dimensions (Pole Angle and Cart Velocity).
+CPTS_3: Modify 2 dimensions (Pole Angle and Pole Angular Velocity).
+CPTS_4: Modify 2 dimensions (Cart Velocity and Pole Angular Velocity).
+CPTS_5: Modify 3 dimensions (Pole Angle, Cart Velocity, and Pole Angular Velocity).
+CPTS_6: Modify 3 dimensions (Cart Position, Pole Angle, and Pole Angular Velocity).
+CPTS_7: Modify 4 dimensions (Cart Position, Pole Angle, Cart Velocity, and Pole Angular Velocity).
+
+MountainCar
+
+Ranges:
+Car Position: [-1.2, 0.6]
+Car Velocity: [-0.07, 0.07]
+
+State dimensional variation:
+MCTS_1: Modify 1 dimension (Car Velocity).
+MCTS_2: Modify 1 dimension (Car Position).
+MCTS_3: Modify 2 dimensions (Car Velocity and Car Position).
+
+LunarLander
+
+Ranges: Defined by the environment.
+
+State dimensional variation:
+LLTS_1: Modify 1 dimension (Initial force along the x-axis).
+LLTS_2: Modify 3 dimensions (Forces along the x-axis and y-axis, and position along the y-axis).
+LLTS_3: Modify 3 dimensions (Lander angular velocity, and forces along the x-axis and y-axis).
+LLTS_4: Modify 3 dimensions (Lander angle, and forces along the x-axis and y-axis).
+LLTS_5: Modify 5 dimensions (Forces along the x-axis and y-axis, positions along the x-axis and y-axis, and angular velocity).
+LLTS_6: Modify 5 dimensions (Forces along the x-axis and y-axis, positions along the x-axis and y-axis, and angle).
+LLTS_7: Modify 6 dimensions (All dimensions).
